@@ -1,0 +1,17 @@
+1. The curve demonstrates a positive correlation. As the percentage of training
+data used increases, the accuracy on the test set also increases. This is because
+with more training data, the computer can more accurately determine what to do
+with 'random' values in the test set.
+
+2. The noise is more apparently when a lower percentage of the data was used for
+training. This is probably because when there is a little training, the program
+can probably 'narrow' down to the right values but will be forced to 'choose' within
+a small subset, and thus sometimes get it right (so it is more accurate) and
+sometimes get it wrong (less accurate).
+
+3. The curve is smooth around 100 trials or so.
+
+4. Varying C determines the percentage of necessary training data needed to have
+a higher accuracy on the test data. A higher C means less training data needed for
+the same accuracy, and a smaller C value means that it need more training data to
+reach the same accuracy threshhold.
